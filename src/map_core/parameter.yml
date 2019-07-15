@@ -1,0 +1,34 @@
+%YAML:1.0
+
+#PID configuration
+P: 1.0
+I: 1.0
+D: 1.0
+
+#当y值低于y_min时开始拾取
+y_min: 100
+
+#color calibration results
+red: 0
+blue: 251
+white: -1
+
+#defalut Hough parameters
+
+g_min_dist: 48 #double g_min_radius
+g_min_radius: 57
+g_max_radius: 61
+g_MORPH_OPEN: 9
+
+max_g_min_dist: 100
+max_g_min_radius: 70
+max_g_max_radius: 100
+max_g_MORPH_OPEN: 21
+
+#process method
+bool_color: 1
+bool_HSV_H: 1
+bool_RGB_R: 1
+bool_HSV_Red: 0
+
+RemoveSimilarLocation_distance_threshold: 3

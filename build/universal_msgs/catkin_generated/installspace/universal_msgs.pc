@@ -1,0 +1,8 @@
+prefix=/home/robin/catkin_car/install
+
+Name: universal_msgs
+Description: Description of universal_msgs
+Version: 0.0.0
+Cflags: -I/home/robin/catkin_car/install/include
+Libs: -L/home/robin/catkin_car/install/lib 
+Requires: message_runtime roscpp rospy std_msgs cv_bridge image_transport sensor_msgs message_generation geometry_msgs

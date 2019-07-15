@@ -1,0 +1,2 @@
+map_core:universal_msgs
+-DCATKIN_DEVEL_PREFIX=/home/robin/catkin_car/devel -DCMAKE_INSTALL_PREFIX=/home/robin/catkin_car/install -G Unix Makefiles

@@ -1,0 +1,8 @@
+prefix=/home/robin/catkin_car/devel
+
+Name: map_core
+Description: Description of map_core
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/robin/catkin_car/devel/lib 
+Requires: 

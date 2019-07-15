@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: map_core
+Description: Description of map_core
+Version: 0.0.0
+Cflags: 
+Libs: -L/usr/local/lib 
+Requires: 

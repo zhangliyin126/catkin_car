@@ -1,0 +1,8 @@
+prefix=/home/robin/catkin_car/src/cmake-build-debug/devel
+
+Name: universal_msgs
+Description: Description of universal_msgs
+Version: 0.0.0
+Cflags: -I/home/robin/catkin_car/src/cmake-build-debug/devel/include
+Libs: -L/home/robin/catkin_car/src/cmake-build-debug/devel/lib 
+Requires: message_runtime roscpp rospy std_msgs cv_bridge image_transport sensor_msgs message_generation geometry_msgs
